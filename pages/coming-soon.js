@@ -1,46 +1,34 @@
 // pages/coming-soon.js
 
-import styles from '../styles/comingSoon.module.css'
-import Image from 'next/image'
-
+import Image from "next/image";
+import styles from "../styles/comingSoon.module.css";
 
 export default function ComingSoon() {
-
   return (
-    <div className="container">
-
-      <div className="header">
+    <div className={styles.container}>
+      <header className={styles.header}>
         <h1>Coming Soon</h1>
-      </div>
+      </header>
 
-      <main>
-
-        <div className="hero">
-          <Image 
+      <main className={styles.main}>
+        <div className={styles.imageContainer}>
+          <Image
             src="/images/sydney-opera-house.jpg"
-            alt="Sydney Opera House"
-            width={1365}
-            height={767}
+            alt="Coming soon"
+            width={600}
+            height={400}
           />
         </div>
 
-        <div className="text">
-          <p>
-            Thanks for visiting! Our website is still under construction.  
-          </p>
-
-          <p>
-            Please check back soon for more details on our upcoming launch!
-          </p>
+        <div className={styles.text}>
+          <p>Our website is under construction.</p>
+          <p>Please check back later!</p>
         </div>
-
       </main>
 
-      <footer>
+      <footer className={styles.footer}>
         &copy; My Website {new Date().getFullYear()}
       </footer>
-
     </div>
-  )
-
+  );
 }
