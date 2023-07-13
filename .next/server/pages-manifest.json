@@ -1,6 +1,17 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/api/submitForm": "pages/api/submitForm.js",
+  "/events": "pages/events.html",
+  "/guide/nsw": "pages/guide/nsw.html",
+  "/guide": "pages/guide.html",
+  "/index-bak": "pages/index-bak.html",
+  "/": "pages/index.html",
+  "/rsvp copy": "pages/rsvp copy.html",
+  "/rsvp-google": "pages/rsvp-google.html",
+  "/rsvp": "pages/rsvp.html",
+  "/weddingparty": "pages/weddingparty.html",
+  "/travel": "pages/travel.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
