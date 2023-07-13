@@ -1,17 +1,6 @@
 {
-  "/_error": "pages/_error.js",
-  "/api/submitForm": "pages/api/submitForm.js",
   "/_app": "pages/_app.js",
-  "/guide/nsw": "pages/guide/nsw.html",
-  "/index-bak": "pages/index-bak.html",
-  "/events": "pages/events.html",
-  "/guide": "pages/guide.html",
-  "/rsvp copy": "pages/rsvp copy.html",
-  "/travel": "pages/travel.html",
-  "/rsvp": "pages/rsvp.html",
-  "/rsvp-google": "pages/rsvp-google.html",
-  "/": "pages/index.html",
-  "/weddingparty": "pages/weddingparty.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
