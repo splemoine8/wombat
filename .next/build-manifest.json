@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/enV8nahZMVPxiCTu-P9Mx/_buildManifest.js",
-    "static/enV8nahZMVPxiCTu-P9Mx/_ssgManifest.js"
+    "static/vD3QqvOPKu6ZmmrcaCI9N/_buildManifest.js",
+    "static/vD3QqvOPKu6ZmmrcaCI9N/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -89,6 +89,13 @@
       "static/chunks/675-a7ecff2350b9c36d.js",
       "static/css/3d9e7a9412643877.css",
       "static/chunks/pages/rsvp-google-330083c5320c8f64.js"
+    ],
+    "/test": [
+      "static/chunks/webpack-74824e4b5dfa35f2.js",
+      "static/chunks/framework-305cb810cde7afac.js",
+      "static/chunks/main-108f4624a742a542.js",
+      "static/css/adcf45cbedb66012.css",
+      "static/chunks/pages/test-32cc2a8f2d29d8e0.js"
     ],
     "/travel": [
       "static/chunks/webpack-74824e4b5dfa35f2.js",
