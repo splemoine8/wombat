@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.menu {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(91, 92, 91);
+    font-family: "Brandon Grotesque Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15.4px;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.navWrapper {
+    position: absolute;
+    top: 400px; /* Adjust this value to position the nav bar below the title box */
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      font-size: 12px;
+    }
+  
+    .menu li {
+      margin: 0 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu {
+      font-size: 10px;
+    }
+  
+    .menu li {
+      margin: 0 3px;
+    }
+  }

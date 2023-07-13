@@ -1,0 +1,49 @@
+.footer {
+  position: relative;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footerText {
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.redHeart {
+  color: red;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerImageLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 305px;
+}
+
+.footerImageRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 305px;
+}

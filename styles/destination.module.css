@@ -1,0 +1,99 @@
+.travelWrapper {
+    padding: 1rem;
+  }
+  
+  .travelHeading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .travelIntro {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sectionHeading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.accommodationList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.accommodationList li {
+  margin-bottom: 1.5rem;
+}
+
+.travelIdeasList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.travelIdeasList li {
+  margin-bottom: 0.5rem;
+}
+
+.travelContainer {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .accommodationList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .accommodationList li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .travelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .accommodationList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .destination {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .destinationInfo {
+    flex: 2;
+  }
+  
+  .destinationInfo h3 {
+    margin: 0;
+  }
+  
+  .destinationInfo p {
+    margin: 10px 0;
+  }

@@ -1,0 +1,91 @@
+
+html,
+body {
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  margin: 0px;
+  /* background-color: rgb(245, 241, 235); */
+  background-color: #f8f8f8;
+  background-image: none;
+  background-repeat: repeat;
+  background-position: left top;
+  color: rgb(91, 92, 91);
+  font-variant-ligatures: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(91, 92, 91);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(91, 92, 91);
+}
+
+a:visited {
+  color: rgb(91, 92, 91);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@font-face {
+  font-family: "Adios Script Pro Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/AdiosScriptPro-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  font-style: normal;
+  font-weight: 390;
+  src: url("/fonts/BrandonGrotesque-Regular-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 390;
+  src: url("/fonts/BrandonGrotesque-Regular-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Futura Std Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FuturaStd-Medium-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Futura Std";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FuturaStd-Medium-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Futura Std Medium Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FuturaStd-Condensed-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Futura Std";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FuturaStd-Condensed-Regular.otf") format('opentype');
+}

@@ -1,0 +1,109 @@
+  .coverphoto1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: -20%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+  }
+  
+  .wrapper {
+    padding: 0;
+  }
+
+  .content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  /* .joinUs {
+    font-family: "Adios Script Pro Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    text-transform: none;
+    letter-spacing: 0.3px;
+    font-size: 33.6px;
+    color: rgb(91, 92, 91);
+    margin: 0px;
+  } */
+  
+  /* .date {
+    font-family: "Futura Std Medium";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgb(91, 92, 91);
+} */
+
+.ourStory {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 21.6px;
+  color: rgb(91, 92, 91);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.storyText p {
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
+}
+
+.palm {
+    display: block;
+    height: 100px;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdown {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-size: 25.6px;
+  color: #5b5c5b;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Button {
+  background-color: #5b5c5b;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}

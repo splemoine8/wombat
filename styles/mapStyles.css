@@ -1,0 +1,56 @@
+.australia-map path {
+    fill: #cccccc;
+    stroke: #ffffff;
+    stroke-width: 1;
+    cursor: pointer;
+  }
+  
+  .australia-map path:hover {
+    fill: #466f5d;
+  }
+  
+  .australia-map {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .territory-label {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    fill: #9d1f1f;
+    text-anchor: middle;
+    pointer-events: none;
+    color: #b71d1d;
+  }
+  
+  /* .tooltip {
+    position: absolute;
+    z-index: 9999;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .tooltip.active {
+    opacity: 1;
+  }
+  
+  .tooltip::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #333 transparent;
+  } */
