@@ -1,7 +1,8 @@
 // pages/coming-soon.js
 
-import Image from "next/image";
+import NextImage from "next/image";
 import styles from "../styles/comingSoon.module.css";
+import Footer from "../components/footer";
 
 export default function ComingSoon() {
   return (
@@ -12,8 +13,8 @@ export default function ComingSoon() {
 
       <main className={styles.main}>
         <div className={styles.imageContainer}>
-          <Image
-            src="/images/sydney-opera-house.jpg"
+          <NextImage
+            src="/images/proposal.jpeg"
             alt="Coming soon"
             width={600}
             height={400}
@@ -26,9 +27,7 @@ export default function ComingSoon() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        &copy; My Website {new Date().getFullYear()}
-      </footer>
+      <Footer />
     </div>
   );
 }
