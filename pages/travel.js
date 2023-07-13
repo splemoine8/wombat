@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import styles from '../styles/travel.module.css';
+import styles from '../styles/Travel.module.css';
 
 export default function Travel() {
   return (
