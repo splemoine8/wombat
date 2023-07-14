@@ -47,3 +47,22 @@
   right: 0;
   width: 305px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Styles for iPads and smaller */
+  .footerImageLeft,
+  .footerImageRight {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Styles for iPhones and smaller */
+  .footerImageLeft,
+  .footerImageRight {
+    width: 30%;
+  }
+  .footerText {
+    font-size: 0.9rem;
+  }
+}
