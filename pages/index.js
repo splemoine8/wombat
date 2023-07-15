@@ -23,7 +23,8 @@ export default function ComingSoon() {
 
         <div className={styles.text}>
           <p>Our website is under construction.</p>
-          <p>Please check back later!</p>
+          <br></br>
+          <p>Please check back in November for more details!</p>
         </div>
       </main>
 
