@@ -9,6 +9,7 @@ export default function Travel() {
         <title>Travel - {siteTitle}</title>
       </Head>
       <div className={styles.travelContainer}>
+<<<<<<< HEAD
         <div className={styles.importantbox}>
           <h2 className={styles.sectionTitle}>Travel Documents</h2>
           <strong>Passports</strong>
@@ -24,6 +25,12 @@ export default function Travel() {
             </li>
           </ul>
           <p>
+=======
+        <div className={styles.importanttravel}>
+          <h2 className={styles.sectionTitle}>IMPORTANT - Before You Go</h2>
+          <p>
+            <stPassports</h3>
+>>>>>>> pedantic-torvalds
             The nearest airport to the wedding venue is Sydney Kingsford Smith
             Airport (SYD). It is located about 8 miles south of the Sydney city
             center.

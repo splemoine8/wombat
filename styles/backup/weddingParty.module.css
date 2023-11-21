@@ -1,0 +1,115 @@
+.weddingPartyWrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.memberWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.memberImage {
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border: 8px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+  box-sizing: border-box;
+  display: block;
+  height: 400px;
+  width: 400px;
+}
+
+.memberName {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.memberTitle {
+  font-size: 1rem;
+  color: gray;
+}
+
+.memberImageContainer {
+  width: 50%;
+}
+
+.memberDetailsContainer {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.paddingTopStyles {
+  padding-top: 0rem;
+}
+
+.centeredTextStyles {
+  text-align: center;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.lgMarginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.smallDivider {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-image: url('https://d3t14gfu9ehll4.cloudfront.net/themes/7f48ebd0-e386-4de3-b9b8-e48887c84409/root_SmallDivider_3ntBppW.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.marginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.eventsHeading {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32.4px;
+  color: rgb(91, 92, 91);
+  margin: 0px;
+}
+
+.eventTitle {
+  font-family: 'Futura Std Medium';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-size: 25.6px;
+  color: #5b5c5b;
+  margin-top: 1.25em;
+}

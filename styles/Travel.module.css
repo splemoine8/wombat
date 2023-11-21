@@ -58,8 +58,13 @@
   margin-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
 .importantbox {
   background-color: grey;
+=======
+.importanttravel {
+  background-color: rgba(128, 128, 128, 0.5);
+>>>>>>> pedantic-torvalds
   border-radius: 10px;
   padding: 1rem;
 }

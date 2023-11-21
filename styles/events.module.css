@@ -25,7 +25,7 @@
   display: inline-block;
   height: 50px;
   width: 200px;
-  background-image: url('https://d3t14gfu9ehll4.cloudfront.net/themes/7f48ebd0-e386-4de3-b9b8-e48887c84409/root_SmallDivider_3ntBppW.png');
+  background-image: url("/images/smalldivider.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 }
 
 .eventTitle {
-  font-family: 'Futura Std Medium';
+  font-family: "Futura Std Medium";
   font-weight: 400;
   font-style: normal;
   line-height: 1.2;
@@ -105,7 +105,7 @@
 
 .largeDivider {
   height: 50px;
-  background-image: url('https://d3t14gfu9ehll4.cloudfront.net/themes/7f48ebd0-e386-4de3-b9b8-e48887c84409/root_LargeDivider_wGuzi5t.png');
+  background-image: url("https://d3t14gfu9ehll4.cloudfront.net/themes/7f48ebd0-e386-4de3-b9b8-e48887c84409/root_LargeDivider_wGuzi5t.png");
   background-size: auto 50px;
   background-position: center center;
   background-repeat: repeat-x;
@@ -143,7 +143,7 @@
 }
 
 .eventButton {
-  background-color: #5b5c5b;
+  background-color: #466f5d;
   color: #ffffff;
   padding: 8px 16px;
   border: none;
@@ -163,5 +163,5 @@
 
 .eventIcon i {
   margin: 0;
-  color:#5b5c5b
+  color: #5b5c5b;
 }
