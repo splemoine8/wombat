@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import styles from '../styles/Travel.module.css';
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import styles from "../styles/Travel.module.css";
 
 export default function Travel() {
   return (
@@ -9,30 +9,82 @@ export default function Travel() {
         <title>Travel - {siteTitle}</title>
       </Head>
       <div className={styles.travelContainer}>
+        <div className={styles.importantbox}>
+          <h2 className={styles.sectionTitle}>Travel Documents</h2>
+          <strong>Passports</strong>
+          <ul>
+            <li>
+              All international visitors to Australia must have a valid
+              passport. Make sure your passport is valid for at least six months
+              beyond the date you plan to leave Australia.
+            </li>
+            <li>
+              Keep a photocopy or digital copy of your passport separate from
+              the original, which can be helpful in the event of loss or theft.
+            </li>
+          </ul>
+          <p>
+            The nearest airport to the wedding venue is Sydney Kingsford Smith
+            Airport (SYD). It is located about 8 miles south of the Sydney city
+            center.
+          </p>
+        </div>
         <h2 className={styles.sectionTitle}>Airport</h2>
         <p>
-          The nearest airport to the wedding venue is Sydney Kingsford Smith Airport (SYD). It is located about 8 miles south of the Sydney city center.
+          The nearest airport to the wedding venue is Sydney Kingsford Smith
+          Airport (SYD). It is located about 8 miles south of the Sydney city
+          center.
         </p>
 
         <h2 className={styles.sectionTitle}>Accommodation</h2>
         <ul className={styles.accommodationList}>
           <li>
-            <strong>Hotel A</strong><br />
-            Address: 1234 Hotel St, Sydney NSW 2000, Australia<br />
-            Phone: +61 2 9123 4567<br />
-            Website: <a href="https://www.example.com/hotel-a" target="_blank" rel="noopener noreferrer">www.example.com/hotel-a</a>
+            <strong>Hotel A</strong>
+            <br />
+            Address: 1234 Hotel St, Sydney NSW 2000, Australia
+            <br />
+            Phone: +61 2 9123 4567
+            <br />
+            Website:{" "}
+            <a
+              href="https://www.example.com/hotel-a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.example.com/hotel-a
+            </a>
           </li>
           <li>
-            <strong>Hotel B</strong><br />
-            Address: 5678 Hotel St, Sydney NSW 2000, Australia<br />
-            Phone: +61 2 9876 5432<br />
-            Website: <a href="https://www.example.com/hotel-b" target="_blank" rel="noopener noreferrer">www.example.com/hotel-b</a>
+            <strong>Hotel B</strong>
+            <br />
+            Address: 5678 Hotel St, Sydney NSW 2000, Australia
+            <br />
+            Phone: +61 2 9876 5432
+            <br />
+            Website:{" "}
+            <a
+              href="https://www.example.com/hotel-b"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.example.com/hotel-b
+            </a>
           </li>
           <li>
-            <strong>Hotel C</strong><br />
-            Address: 9012 Hotel St, Sydney NSW 2000, Australia<br />
-            Phone: +61 2 9012 3456<br />
-            Website: <a href="https://www.example.com/hotel-c" target="_blank" rel="noopener noreferrer">www.example.com/hotel-c</a>
+            <strong>Hotel C</strong>
+            <br />
+            Address: 9012 Hotel St, Sydney NSW 2000, Australia
+            <br />
+            Phone: +61 2 9012 3456
+            <br />
+            Website:{" "}
+            <a
+              href="https://www.example.com/hotel-c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.example.com/hotel-c
+            </a>
           </li>
         </ul>
       </div>
