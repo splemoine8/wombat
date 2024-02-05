@@ -1,5 +1,5 @@
 // components/footer.js
-import styles from './footer.module.css';
+import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
@@ -10,17 +10,22 @@ const Footer = () => {
           alt="Image Left"
           className={styles.footerImageLeft}
         />
+        <p className={styles.footerText}>
+          Crafted by Scott with lots of &nbsp;
+          <span className={`fa fa-heart fa-beat ${styles.redHeart}`}></span>
+          &nbsp; for Maddy
+        </p>
         <img
           src="/images/leavesright.png"
           alt="Image Right"
           className={styles.footerImageRight}
         />
       </div>
-      <p className={styles.footerText} class="py-5">
+      {/* <p className={styles.footerText}>
         Crafted by Scott with lots of &nbsp;
         <span className={`fa fa-heart fa-beat ${styles.redHeart}`}></span>
         &nbsp; for Maddy
-      </p>
+      </p> */}
     </div>
   );
 };

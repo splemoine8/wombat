@@ -1,0 +1,293 @@
+
+
+.eventsWrapper {
+  padding: 1em;
+}
+
+.paddingTopStyles {
+  padding-top: 0rem;
+}
+
+.centeredTextStyles {
+  text-align: center;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.lgMarginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.smallDivider {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-image: url("/images/smalldivider.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.marginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.base {
+  margin: 0 auto;
+  max-width: 1170px;
+  box-sizing: border-box;
+}
+
+.event {
+  margin: 20px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 60rem) {
+  .event {
+    display: flex;
+    flex-direction: column;
+    /* Change flex direction to column */
+    align-items: center;
+  }
+}
+
+.event i {
+  font-size: 2.5em;
+  /* or any other size you prefer */
+  /* margin-right: 1em; adjust the margin as needed */
+}
+
+.eventContent {
+  text-align: center;
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
+}
+
+@media (min-width: 60rem) {
+  .eventContent {
+    flex: 1;
+    /* Allow eventContent to grow vertically */
+  }
+}
+
+.eventHeadingStyles {
+  flex: 9;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.eventTitle {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-size: 25.6px;
+  color: #5b5c5b;
+  margin-top: 1.25em;
+}
+
+.eventDate {
+  font-family: "Futura Std Medium";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-size: 20px;
+  color: #5b5c5b;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.bottomSpacerOnly {
+  margin-bottom: 0.5rem;
+}
+
+.largeDivider {
+  height: 50px;
+  background-image: url("https://d3t14gfu9ehll4.cloudfront.net/themes/7f48ebd0-e386-4de3-b9b8-e48887c84409/root_LargeDivider_wGuzi5t.png");
+  background-size: auto 50px;
+  background-position: center center;
+  background-repeat: repeat-x;
+}
+
+.eventDate,
+.eventLocation {
+  text-align: center;
+}
+
+.eventsHeading {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32.4px;
+  color: rgb(91, 92, 91);
+  margin: 0px;
+}
+
+.eventTime {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.eventButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.eventButton {
+  background-color: #466f5d;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.eventIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.eventIcon i {
+  margin: 0;
+  color: #5b5c5b;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  /* Choose a color for the divider */
+  margin: 1rem 0;
+  /* Adjust the margin as needed for spacing */
+}
+
+.descriptionSpacer {
+  margin: 10px 0;
+  /* Add 10px margin to the top and bottom */
+  max-width: 500px;
+  /* Adjust this value to your needs */
+  /* If you want the text to wrap and not overflow */
+  overflow-wrap: break-word;
+}
+
+.contentWrapper {
+  max-width: 100%;
+  /* Adjust this value as needed */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.subheader {
+  font-size: 1.5em;
+  /* Adjust this value as needed */
+  margin-bottom: 1em;
+  /* Adjust this value as needed */
+  font-family: "Futura Std Medium";
+  color: rgb(91, 92, 91);
+  font-weight: 400;
+}
+
+.stayContainer {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* font-family: "Futura Std Medium";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  font-size: 20px;
+  color: #910d25; */
+}
+
+.spacer {
+  margin: 2em;
+  /* Add 10px margin to the top and bottom */
+}
+
+/* .imageContainer {
+  width: 100px;
+  height: 100px;
+} */
+
+.hotelItem {
+  display: flex;
+  align-items: start;
+  /* Align the image and the text at the top */
+  gap: 1rem;
+  /* Add some space between the image and the text */
+  font-size: 1.2em;
+  /* Adjust this value as needed */
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 18px;
+  color: rgb(91, 92, 91);
+}
+
+
+.introText {
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 00;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.discountItems {
+  font-size: 1.2em;
+  /* Adjust this value as needed */
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 18px;
+  color: rgb(91, 92, 91);
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    display: none;
+  }
+}

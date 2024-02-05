@@ -1,24 +1,22 @@
 .footer {
-  position: relative;
   text-align: center;
-  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Removed justify-content to allow natural flow and adjusted padding */
+  padding-bottom: 0; /* Set this to zero or a small value */
 }
 
 .footerText {
   font-family: "Brandon Grotesque Regular";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.6;
-  text-transform: none;
-  letter-spacing: normal;
   font-size: 16.8px;
   color: rgb(91, 92, 91);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
+  padding-bottom: 20px; /* Adds space above the text, pushing it up from the bottom */
+  width: 100%; /* Ensures the text is centered within the full width */
+
+  margin-top: auto; /* Pushes the text up to the images */
+  padding-bottom: 1rem; /* Adjust this value to move text up or down */
 }
 
 .redHeart {
@@ -27,23 +25,62 @@
 
 .footerContainer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  align-items: flex-end; /* Aligns children to the bottom */
+  justify-content: space-between; /* Spreads out the images */
+  padding-bottom: 0; /* Ensure no padding is creating space at the bottom */
 }
 
-.footerImageLeft {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+
+.footerImageLeft, .footerImageRight {
   width: 305px;
+  height: auto;
+  margin-bottom: 0;
 }
 
-.footerImageRight {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 305px;
+/* For smaller iPhones (landscape and portrait) */
+@media only screen and (max-width: 575px) {
+  .footerImageLeft, .footerImageRight {
+    width: 50px; /* Adjusted size for iPhones */
+    height: auto;
+  }
+  .footerText {
+    font-family: "Brandon Grotesque Regular";
+    font-size: 12px;
+    color: rgb(91, 92, 91);
+    padding-bottom: 20px; /* Adds space above the text, pushing it up from the bottom */
+    width: 100%; /* Ensures the text is centered within the full width */
+  
+    margin-top: auto; /* Pushes the text up to the images */
+    padding-bottom: 1rem; /* Adjust this value to move text up or down */
+  }
+}
+/* For iPhones (landscape and portrait) */
+@media only screen and (min-width: 576px) {
+  .footerImageLeft, .footerImageRight {
+    width: 100px; /* Adjusted size for iPhones */
+    height: auto;
+  }
+}
+
+/* For iPads (landscape and portrait) */
+@media only screen and (min-width: 768px) {
+  .footerImageLeft, .footerImageRight {
+    width: 150px; /* Adjusted size for iPads */
+    height: auto;
+  }
+}
+/* For large devices (landscape and portrait) */
+@media only screen and (min-width: 992px) {
+  .footerImageLeft, .footerImageRight {
+    width: 200px; /* Adjusted size for iPads */
+    height: auto;
+  }
+}
+/* For standard screens */
+@media only screen and (min-width: 1200px) {
+  .footerImageLeft, .footerImageRight {
+    width: 305px; /* Size for standard screens */
+    height: auto;
+  }
 }

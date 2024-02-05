@@ -2,7 +2,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    margin-top: -20%;
+    margin-top: -28%; /* Increased the cropping from the top */
     margin-bottom: 30px;
     box-sizing: border-box;
     overflow-clip-margin: content-box;

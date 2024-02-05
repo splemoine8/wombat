@@ -31,6 +31,14 @@
 .travelIdeasList {
   list-style-type: disc;
   padding-left: 1.5rem;
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 00;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
 }
 
 .travelIdeasList li {
@@ -39,8 +47,16 @@
 
 .travelContainer {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
+  /* font-family: "Futura Std Medium";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 2.6px;
+  font-size: 20px;
+  color: #910d25; */
 }
 
 .sectionTitle {
@@ -58,13 +74,50 @@
   margin-bottom: 1.5rem;
 }
 
-<<<<<<< HEAD
-.importantbox {
-  background-color: grey;
-=======
-.importanttravel {
-  background-color: rgba(128, 128, 128, 0.5);
->>>>>>> pedantic-torvalds
-  border-radius: 10px;
-  padding: 1rem;
+.centeredTextStyles {
+  text-align: center;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.lgMarginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.smallDivider {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-image: url("/images/smalldivider.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eventsHeading {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32.4px;
+  color: rgb(91, 92, 91);
+  margin: 0px;
+}
+
+.accordianTitle{
+  font-size: 1.25em;
+  font-family: "Futura Std Medium";
+  color: #466f5d;
+  font-weight: 400;
+}
+.accordianButton{
+  font-size: 1.25em;
+  font-family: "Futura Std Medium";
+  color: rgb(91, 92, 91);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }

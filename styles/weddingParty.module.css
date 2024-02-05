@@ -3,39 +3,78 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 80%;
   padding: 2rem;
+}
+
+@media (max-width: 600px) {
+  .partyGroups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .weddingPartyWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 0%;
+    padding: 2rem;
+  }
+  .officiantGroups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 0%;
+  }
 }
 
 .partyGroups {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
+  width: 80%;
   gap: 2rem;
+}
+
+.officiantGroups {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto; /* Add this line */
+}
+
+.parentGroups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 80%;
 }
 
 .partyGroup {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 25%;
 }
 
-.bridalParty {
+/* .bridalParty {
   align-items: flex-start;
 }
 
 .groomsmen {
   align-items: flex-end;
-}
+} */
 
 .memberWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .memberImageContainer {
@@ -61,6 +100,7 @@
 .memberTitle {
   font-size: 1rem;
   color: gray;
+  font-family: "Futura Std Medium";
 }
 
 .memberRelationship {
@@ -90,4 +130,70 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.emphasizedTitle {
+  font-family: "Futura Std Medium";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1rem;
+  color: #466f5d;
+  /* Add any other styling as needed */
+}
+
+.eventsHeading {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.4;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32.4px;
+  color: rgb(91, 92, 91);
+  margin: 0px;
+}
+
+.centeredTextStyles {
+  text-align: center;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.lgMarginBottomStyles {
+  margin-bottom: 2rem;
+}
+
+.smallDivider {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  background-image: url("/images/smalldivider.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.memberRelationship {
+  text-align: center;
+  font-family: "Brandon Grotesque Regular";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 16.8px;
+  color: rgb(91, 92, 91);
+}
+
+.memberName {
+  font-family: "Futura Std Medium";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: 1px;
+  font-size: 22px;
+  color: rgb(91, 92, 91);
+  margin: 0px;
 }

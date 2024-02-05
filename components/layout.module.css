@@ -1,9 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This makes the container fill the height of the viewport */
+}
+
+.mainContent {
+  flex: 1; /* This will allow the main content to expand and push the footer down */
+  /* Ensure that there are no other styles causing unexpected overflow or positioning */
+}
+
 .header {
   z-index: 1000;
   width: 100%;
   background-color: #f8f8f8;
 }
-
 
 .headerBox {
   display: flex;
@@ -18,7 +28,6 @@
   position: relative;
   text-align: center;
 }
-
 
 .titleBox {
   position: relative;
@@ -81,16 +90,16 @@
 }
 
 @media (max-width: 768px) {
-    .navWrapper {
-      top: 250px;
-    }
+  .navWrapper {
+    top: 250px;
   }
-  
-  @media (max-width: 480px) {
-    .navWrapper {
-      top: 180px;
-    }
+}
+
+@media (max-width: 480px) {
+  .navWrapper {
+    top: 180px;
   }
+}
 
 /* .flexContainer {
   display: flex;
@@ -107,9 +116,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  /* Removed 'position: absolute;' and 'bottom: 0;' */
 }
 
 .footerImage {
@@ -134,10 +142,10 @@
   top: 140px;
   /* Adjust this value based on the height of the header */
   padding-bottom: 12px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
-  z-index: 1001;
+  /* z-index: 1001; */
 }
 
 .stick {

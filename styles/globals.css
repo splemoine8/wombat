@@ -12,15 +12,22 @@
 @font-face {
   font-family: "Brandon Grotesque Regular";
   font-style: normal;
-  font-weight: 390;
+  font-weight: 400;
   src: url("/fonts/BrandonGrotesque-Regular-Regular.otf") format('opentype');
 }
 
 @font-face {
   font-family: "Brandon Grotesque";
   font-style: normal;
-  font-weight: 390;
+  font-weight: 400;
   src: url("/fonts/BrandonGrotesque-Regular-Regular.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("/fonts/HvDTrial_Brandon_Grotesque_bold-BF64a625c9151d5.otf") format('opentype');
 }
 
 @font-face {
@@ -44,9 +51,6 @@
   src: url("/fonts/FuturaStd-Condensed-Regular.otf") format('opentype');
 }
 
-@font-face {
-  font-family: "Futura Std";
-  font-style: normal;
-  font-weight: 500;
-  src: url("/fonts/FuturaStd-Condensed-Regular.otf") format('opentype');
+a {
+  color: #466f5d;
 }

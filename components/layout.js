@@ -1,21 +1,17 @@
-import Head from 'next/head';
-import styles from './layout.module.css';
-import Navigation from './navigation';
-import Footer from './footer';
+import Head from "next/head";
+import styles from "./layout.module.css";
+import Navigation from "./navigation";
+import Footer from "./footer";
 
-export const siteTitle = 'Wedding';
+export const siteTitle = "Madelyn & Scott - Sydney Wedding";
 
 export default function Layout({ children }) {
   return (
     <div className={styles.container}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" x="summary_large_image" />
-      </Head>
+      <Head> {/* ... */} </Head>
       <Header />
-      <Navigation className={styles.stick}/>
-      <main>{children}</main>
+      <Navigation />
+      <main className={styles.mainContent}>{children}</main>
       <Footer />
     </div>
   );
