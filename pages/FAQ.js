@@ -20,7 +20,7 @@ export default function FAQ() {
       <div className={styles.eventContainer}>
         
         <div className={styles.eventContent}>
-          <p className="mb-2 text-[#466f5d] font-bold">What is the dress code for the wedding?</p>
+          <p className="mb-2 text-[#466f5d] font-bold w-500x">What is the dress code for the wedding?</p>
           <p>The dress code is cocktail attire. Please dress accordingly to the weather as the wedding and reception will be held outdoors. For attire information for the other events, please see the <a href="/events">Events</a> page.</p>
         </div>
         <p className={styles.descriptionSpacer}></p>

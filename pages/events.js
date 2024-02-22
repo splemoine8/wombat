@@ -18,7 +18,7 @@ export default function Events() {
         "Join us for pub food and drinks at the place where we first met. For those interested, a night out in the city will follow! Attire is casual.",
     },
     {
-      title: "Rehersal Boat Cruise",
+      title: "Rehearsal Boat Cruise",
       icon: "fa-ship",
       date: "WEDNESDAY, NOVEMBER 27, 2024",
       time: "2:00 PM",
@@ -136,13 +136,10 @@ export default function Events() {
                     <div className={styles.marginBottomStyles}>
                       <p>{event.time}</p>
                       <p>{event.location}</p>
-                      
-                      <a 
-                          href={event.mapUrl}
-                          className={styles.addressLink}
-                        >
-                          {event.address}
-                          </a>
+
+                      <a href={event.mapUrl} className={styles.addressLink}>
+                        {event.address}
+                      </a>
                       <div className="content-center">
                         <p className={styles.descriptionSpacer}>
                           {event.description}
