@@ -28,7 +28,7 @@ export default function Events() {
         "https://www.google.com/maps/place/Sydney+Harbour/@-33.8441347,151.077693,12z/data=!3m1!4b1!4m6!3m5!1s0x6b12ac27b4c8141b:0x9c8d82d1bc806be8!8m2!3d-33.8436313!4d151.23731!16s%2Fg%2F11cjgbwxlt?entry=ttu",
       calendarUrl: "http://example.com/event2.ics",
       description:
-        "Come along for a breathtaking sunset cruise of the harbor hosted by the <a href=\"/weddingparty#mother-of-the-groom\">Mother and Father of the Groom</a>. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal. ",
+        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal. ",
     },
     {
       title: "Wedding Ceremony",
