@@ -28,7 +28,7 @@ export default function Events() {
         "https://www.google.com/maps/place/Sydney+Harbour/@-33.8441347,151.077693,12z/data=!3m1!4b1!4m6!3m5!1s0x6b12ac27b4c8141b:0x9c8d82d1bc806be8!8m2!3d-33.8436313!4d151.23731!16s%2Fg%2F11cjgbwxlt?entry=ttu",
       calendarUrl: "http://example.com/event2.ics",
       description:
-        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal. ",
+        "Come along for a breathtaking sunset cruise of the harbor hosted by the <a href=\"#parents\">Mother and Father of the Groom</a>. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal. ",
     },
     {
       title: "Wedding Ceremony",
@@ -41,7 +41,7 @@ export default function Events() {
         "https://www.google.com/maps/place/Gunners+Barracks/@-33.8367956,151.257662,359m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6b12ac6b498cdf71:0xc1b530b9ab6790b0!8m2!3d-33.8367956!4d151.2583057!16s%2Fg%2F1ttdylsp?entry=ttu",
       calendarUrl: "http://example.com/event3.ics",
       description:
-        "Share our special moment with us as we exchange vows and start our new journey together. Please arrive by 5:00pm for refreshments and live music prior the ceremony. Attire is cocktail.",
+        "Share our special moment with us as we exchange vows and start our new journey together. Please arrive by 5:00pm for refreshments and live music prior to the ceremony. Attire is cocktail.",
     },
     {
       title: "Wedding Dinner and Reception",

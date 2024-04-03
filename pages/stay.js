@@ -28,7 +28,7 @@ export default function Stay() {
               Business District (CBD) and by the beaches. Our wedding events are
               spread across the city, so feel free to stay where ever you want
               since it's so easy to get around. Here are just a few that we
-              reccomend!
+              recommend!
             </p>
             <br></br>
             <ul className={styles.list}>
@@ -112,7 +112,7 @@ export default function Stay() {
             </ul>
             <div className={styles.spacer}></div>
             <p className={styles.introText}>
-              Additionally, our wedding venue has generiously provided a{" "}
+              Additionally, our wedding venue has generously provided a{" "}
               <strong>15% discount</strong> off a select group of hotels,
               including:
               <ul style={{ listStyleType: "disc" }}>
@@ -301,7 +301,7 @@ export default function Stay() {
             <div className={styles.spacer}></div>
             <h3 className={styles.subheader}>Where to Stay</h3>
             <p className={styles.introText}>
-              While our wedding venue is located in Mossman, there's no need to
+              While our wedding venue is located in Mosman, there's no need to
               limit your accommodation search to the immediate vicinity. Sydney
               has excellent transportation options and you can easily explore
               and stay in a wider range of locations. Here are a few areas we

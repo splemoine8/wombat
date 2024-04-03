@@ -113,7 +113,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                When they arrived they were greeted by their waiter - the only waiter at a one table resturant on the mountainsde. Scott continued to play the dinner off as just another surprise date, and Maddy bought into it wholeheartedly, her excitement growing with each passing moment. The evening unfolded with a seven-course meal perfectly paired with a collection of Croatian wines, and as the sun began its descent, the stage was set for Scott's grand plan.
+                When they arrived they were greeted by their waiter - the only waiter at a one table restaurant on the mountainside. Scott continued to play the dinner off as just another surprise date, and Maddy bought into it wholeheartedly, her excitement growing with each passing moment. The evening unfolded with a seven-course meal perfectly paired with a collection of Croatian wines, and as the sun began its descent, the stage was set for Scott's grand plan.
               </p>
               <br />
               <p>

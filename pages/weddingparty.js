@@ -187,7 +187,7 @@ export default function WeddingParty() {
         <div className={styles.partyGroups}>
           <div className={`${styles.partyGroup} ${styles.bridalParty}`}>
             {bridalPartyMembers.map((member, index) => (
-              <MemberDetails member={member} key={index} />
+              <MemberDetails member={member} key={index} id={member.title === "Mother of the Groom" ? "mother-of-the-groom" : undefined} />
             ))}
           </div>
           <div className={`${styles.partyGroup} ${styles.groomsmen}`}>
@@ -208,9 +208,9 @@ export default function WeddingParty() {
   );
 }
 
-function MemberDetails({ member }) {
+function MemberDetails({ member, id }) {
   return (
-    <div className={styles.memberWrapper}>
+    <div className={styles.memberWrapper} id={parents}>
       <div className={styles.memberImageContainer}>
         <Image
           src={member.image}

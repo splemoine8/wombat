@@ -135,7 +135,7 @@ export default function Travel() {
           <AccordionItem key="7" aria-label="COVID-19 & Health" title={<p className={styles.accordianTitle}>COVID-19 & Health Requirements</p>}>
             <ul className={styles.travelIdeasList}>
               <li>
-              The Australian Government does not currently have any COVID-19 requirements in place for travellers entering and departing Australia.
+              The Australian Government does not currently have any COVID-19 requirements in place for travelers entering and departing Australia.
               </li>
               <li>
                 We highly recommend purchasing travel insurance for your trip to cover any unexpected medical expenses or trip cancellations related to COVID-19 or other health issues.
