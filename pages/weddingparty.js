@@ -210,7 +210,7 @@ export default function WeddingParty() {
 
 function MemberDetails({ member, id }) {
   return (
-    <div className={styles.memberWrapper} id={parents}>
+    <div className={styles.memberWrapper} id={id}>
       <div className={styles.memberImageContainer}>
         <Image
           src={member.image}
