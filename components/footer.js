@@ -1,5 +1,4 @@
 // components/footer.js
-import Image from 'next/image';
 import styles from './footer.module.css';
 
 const Footer = () => {

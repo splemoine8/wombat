@@ -35,7 +35,11 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ 
 /******/ /* webpack/runtime/getFullHash */
 /******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "5de26d60c30bf38a"; }
+<<<<<<< HEAD
+/******/ 	__webpack_require__.h = function() { return "889f7074fd563d8f"; }
+=======
+/******/ 	__webpack_require__.h = function() { return "6a0dd16e0e23e28e"; }
+>>>>>>> pedantic-torvalds
 /******/ }();
 /******/ 
 /******/ /* webpack/runtime/global */
