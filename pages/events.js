@@ -45,7 +45,7 @@ export default function Events() {
       title: "Wedding Ceremony",
       icon: "fa-heart",
       date: "THURSDAY, NOVEMBER 28, 2024",
-      time: "5:00 PM",
+      time: "5:30 PM",
       location: "Harbour View Lawn",
       address: "End of, Suakin Dr, Mosman NSW 2088",
       mapUrl:
