@@ -13,25 +13,18 @@ export default function WeddingParty() {
       //   "Jocelyn, Maddy's older sister, has been a pivotal figure in shaping her into the woman she is today. Their shared childhood is filled with enduring memories, particularly the idyllic summers at the family cabin and their collegiate years at the same university. Jocelyn is much more than a sibling to Maddy; she’s her alter ego and dearest friend.",
     },
     {
+      name: "Lillian Metsch",
+      title: "Bridesmaid",
+      image: "/images/lillian.jpeg",
+      // relationship:
+      //   "Although Maddy and Tatiana were high school acquaintances, it wasn't until their college years that their friendship truly blossomed. As teenagers, they moved in different circles, but adulthood has thankfully reunited them. Maddy cherishes Tatiana's companionship and cannot fathom her life without such a cherished friend.",
+    },
+    {
       name: "Celeste McLaughlin",
       title: "Bridesmaid",
       image: "/images/celeste.jpeg",
       // relationship:
       //   "Maddy and Celeste's friendship, which began at the age of 10, didn’t start out perfectly. It took a common adversary—humorously enough—to seal their bond. From that point forward, Celeste has been a steadfast presence in Maddy’s life, providing support through every significant milestone. Maddy's gratitude for their enduring friendship is immeasurable.",
-    },
-    {
-      name: "Tatiana Ward",
-      title: "Bridesmaid",
-      image: "/images/tati.jpeg",
-      // relationship:
-      //   "Although Maddy and Tatiana were high school acquaintances, it wasn't until their college years that their friendship truly blossomed. As teenagers, they moved in different circles, but adulthood has thankfully reunited them. Maddy cherishes Tatiana's companionship and cannot fathom her life without such a cherished friend.",
-    },
-    {
-      name: "Emily Barbosa",
-      title: "Bridesmaid",
-      image: "/images/emily.jpeg",
-      // relationship:
-      //   "Maddy’s friendship with McKenzie started during their sophomore year of high school, with cheerleading and dance as their common ground. The pair share an infectious sense of humor, and Maddy finds herself in constant laughter when McKenzie is around.",
     },
     {
       name: "McKenzie Stevens",
@@ -46,13 +39,6 @@ export default function WeddingParty() {
       image: "/images/shay.jpeg",
       // relationship:
       //   "The friendship between Maddy and Shay blossomed in 2016, instigated by Maddy’s soon to be husband, Scott. They connected instantly over shared interests and have been like two peas in a pod from their serendipitous meeting onward.",
-    },
-    {
-      name: "Tyler Tripp",
-      title: "Bridesmaid",
-      image: "/images/tyler.jpeg",
-      // relationship:
-      //   "Maddy met Tyler on the first day of their graduate program in the fall quarter. There's nothing like the rigors of a master’s level social work program to forge a bond! Finding friends as an adult can be daunting, but Tyler made it seamless. Maddy is immensely thankful to have her as a steadfast ally.",
     },
     {
       name: "Sandy Lemoine",
@@ -111,9 +97,9 @@ export default function WeddingParty() {
       //   "Even though Ryan and Scott met in college, it wasn’t until after that they became as close as they are today. As the years rolled by, their friendship grew stronger, especially after Shay and Maddy became best friends, intertwining their lives even further. For Scott, Ryan is more than a kook; he's a brother in spirit, always there to bring laughter and energy to every moment they share.",
     },
     {
-      name: "Ryan McInerney",
+      name: "Kevin Lydon",
       title: "Groomsman",
-      image: "/images/ryanmacnew.jpeg",
+      image: "/images/kevin.jpg",
       // relationship:
       //   "Scott and Ryan’s friendship began with cracking jokes in Spanish class at UCSB and evolved into into long nights of snappa and trap music. After graduating, their friendship continued with Call of Duty games and EDM livestream watch parties during quarantine, making some of the best memories. Now, with Ryan in Denver, the adventure continues.",
     },
@@ -174,20 +160,28 @@ export default function WeddingParty() {
         <title>{siteTitle} - Wedding Party</title>
       </Head>
       <div className={styles.centeredTextStyles}>
-      <div className={styles.pageTitle}>
-        <div className={styles.lgMarginBottomStyles}>
-          <h2 className={styles.eventsHeading}>Wedding Party</h2>
-        </div>
-        <div className={styles.lgMarginBottomStyles}>
-          <div className={styles.smallDivider}></div>
+        <div className={styles.pageTitle}>
+          <div className={styles.lgMarginBottomStyles}>
+            <h2 className={styles.eventsHeading}>Wedding Party</h2>
+          </div>
+          <div className={styles.lgMarginBottomStyles}>
+            <div className={styles.smallDivider}></div>
+          </div>
         </div>
       </div>
-    </div>
       <div className={styles.weddingPartyWrapper}>
         <div className={styles.partyGroups}>
           <div className={`${styles.partyGroup} ${styles.bridalParty}`}>
             {bridalPartyMembers.map((member, index) => (
-              <MemberDetails member={member} key={index} id={member.title === "Mother of the Groom" ? "mother-of-the-groom" : undefined} />
+              <MemberDetails
+                member={member}
+                key={index}
+                id={
+                  member.title === "Mother of the Groom"
+                    ? "mother-of-the-groom"
+                    : undefined
+                }
+              />
             ))}
           </div>
           <div className={`${styles.partyGroup} ${styles.groomsmen}`}>

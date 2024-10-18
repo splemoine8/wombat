@@ -6,29 +6,40 @@ import "@fortawesome/fontawesome-free/css/all.css"; // Import Font Awesome style
 export default function Events() {
   const eventDetails = [
     {
-      title: "Welcome Reception at Manning Bar",
+      title: "Welcome Reception",
       icon: "fa-glass-cheers",
       date: "TUESDAY, NOVEMBER 26, 2024",
-      time: "6:00 PM",
-      location: "University of Sydney Campus",
-      address: "Manning House, Level 2 Manning Rd, Camperdown NSW 2050",
-      mapUrl: "https://goo.gl/maps/v4raAQdLYA2XJLNcA",
+      time: "4:00 PM",
+      location: "Camperdown Commons",
+      address: "31a Mallett St, Camperdown, Sydney NSW 2050",
+      mapUrl: "https://maps.app.goo.gl/7wsGTmC5vTn148WX9",
       calendarUrl: "http://example.com/event1.ics",
       description:
-        "Join us for pub food and drinks at the place where we first met. For those interested, a night out in the city will follow! Attire is casual.",
+        "Join us in welcoming all of our guests to kick off the wedding festivities with woodfired pizza and wine. Attire is dressy casual.",
+    },
+    {
+      title: "Sydney Pub Crawl",
+      icon: "fa-beer",
+      date: "TUESDAY, NOVEMBER 26, 2024",
+      time: "8:00 PM",
+      location: "Various Pubs",
+      address: "Starting from Camperdown Commons",
+      mapUrl: "https://maps.app.goo.gl/7wsGTmC5vTn148WX9",
+      calendarUrl: "http://example.com/event1.ics",
+      description:
+        "Join us for a walking pub crawl following the Welcome Reception, and making our way through the city to The Rocks. We will be walking, so please consider this when choosing shoes if you plan to join. Attendance is optional, but highly recommended!",
     },
     {
       title: "Rehearsal Boat Cruise",
       icon: "fa-ship",
       date: "WEDNESDAY, NOVEMBER 27, 2024",
-      time: "2:00 PM",
+      time: "5:00 PM",
       location: "King Street Wharf",
       address: "The Promenade, Lime St, Sydney NSW 2000",
-      mapUrl:
-        "https://www.google.com/maps/place/Sydney+Harbour/@-33.8441347,151.077693,12z/data=!3m1!4b1!4m6!3m5!1s0x6b12ac27b4c8141b:0x9c8d82d1bc806be8!8m2!3d-33.8436313!4d151.23731!16s%2Fg%2F11cjgbwxlt?entry=ttu",
+      mapUrl: "https://maps.app.goo.gl/w8Jxt4Vea4cXpg2R8",
       calendarUrl: "http://example.com/event2.ics",
       description:
-        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal. ",
+        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. The boat will leave promptly at 5:15, so please arrive on time. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal.",
     },
     {
       title: "Wedding Ceremony",
@@ -73,7 +84,7 @@ export default function Events() {
       title: "Recovery Brunch",
       icon: "fa-bacon",
       date: "FRIDAY, NOVEMBER 29, 2024",
-      time: "11:00 AM",
+      time: "12:00 PM",
       location: "Coogee Bay Pavillion",
       address: "Ground Floor, 169 Dolphin St, Coogee NSW 2034",
       mapUrl:
