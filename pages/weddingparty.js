@@ -128,11 +128,14 @@ export default function WeddingParty() {
   ];
   const officantMembers = [
     {
-      name: "Juan Schmidt",
-      title: "Officiant",
-      image: "/images/juancropped.jpg",
-      // relationship:
-      //   "Juan played a crucial role in the lives of Scott and Maddy. He introduced Scott and Maddy during the first few weeks of school and the rest was history. As Scott's best friend, Juan shared countless memories with the couple, becoming an integral part of their journey together.",
+      name: "Terry Metsch",
+      title: "Officiant & Brother of the Bride",
+      image: "/images/terry.jpeg",
+    },
+    {
+      name: "Brandon Nichols",
+      title: "MC",
+      image: "/images/brandon.jpg",
     },
   ];
 

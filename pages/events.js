@@ -34,12 +34,13 @@ export default function Events() {
       icon: "fa-ship",
       date: "WEDNESDAY, NOVEMBER 27, 2024",
       time: "5:00 PM",
-      location: "King Street Wharf",
-      address: "The Promenade, Lime St, Sydney NSW 2000",
-      mapUrl: "https://maps.app.goo.gl/w8Jxt4Vea4cXpg2R8",
+      location: "King Street Wharf #9 (directly in front of Cargo Bar)",
+      address:
+        "King Street Wharf, Darling Harbour, 52-60 The Promenade, Sydney NSW 2000",
+      mapUrl: "https://maps.app.goo.gl/HxGusSCmbCSB4Xf76",
       calendarUrl: "http://example.com/event2.ics",
       description:
-        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. The boat will leave promptly at 5:15, so please arrive on time. Enjoy drinks and canapés while taking in views of the city skyline. Attire is semi-formal.",
+        "Come along for a breathtaking sunset cruise of the harbor hosted by the Mother and Father of the Groom. The boat will leave promptly at 5:15, so please arrive on time. Enjoy drinks and canapés while taking in views of the city skyline. The dock is on the eastern side of Darling Harbour, just north of the Sydney Aquarium and directly in front of Cargo Bar. Attire is semi-formal.",
     },
     {
       title: "Wedding Ceremony",
@@ -72,13 +73,13 @@ export default function Events() {
       icon: "fa-martini-glass-citrus",
       date: "THURSDAY, NOVEMBER 28, 2024",
       time: "12:00 AM",
-      location: "The Argyle",
-      address: "18 Argyle St, The Rocks NSW 2000",
+      location: "TBA",
+      address: "TBA",
       mapUrl:
         "https://www.google.com/maps/place/The+Argyle/@-33.8588837,151.202953,1435m/data=!3m3!1e3!4b1!5s0x6b12ae42d02ad381:0xfb658c93d0b2f3c8!4m6!3m5!1s0x6b12ae42dba4368d:0x6fffc41ab13bf55d!8m2!3d-33.8588838!4d151.2078239!16s%2Fg%2F12qfdj09l?entry=ttu",
       calendarUrl: "http://example.com/event4.ics",
       description:
-        "As the wedding night winds down, we're not stopping there! Meet us in The Rocks for some lively post-wedding fun.",
+        "As the wedding night winds down, we're not stopping there! Meet us in The Rocks for some lively post-wedding fun. Location and time TBA.",
     },
     {
       title: "Recovery Brunch",
